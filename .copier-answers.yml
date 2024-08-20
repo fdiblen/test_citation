@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier
+AddCitation: true
+AddGitHubActions: false
+_commit: 0.5.0-68-g3d61285
+_src_path: https://github.com/nlesc/python-template
+code_of_conduct_email: yourname@esciencecenter.nl
+copyright_holder: Netherlands eScience Center
+email: yourname@esciencecenter.nl
+full_name: Jane Smith
+github_organization: fdiblen
+keyword1: keyword1
+keyword2: keyword2
+license: MIT license
+package_name: test_citation
+package_short_description: Short description of package
+template_profile: ask
+version: 0.1.0
