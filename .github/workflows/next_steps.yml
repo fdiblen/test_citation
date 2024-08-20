@@ -40,7 +40,7 @@ jobs:
         run: |
           echo 'Created issues that must be completed to have fully working Python package:
           * Sonarcloud integration ${{ steps.sonarcloud.outputs.url }}
-          * Zenodo integration ${{ '{{ steps.zenodo.outputs.url }}
+          * Zenodo integration ${{ steps.zenodo.outputs.url }}
           * Read the Docs instructions ${{ steps.readthedocs.outputs.url }}
           * Linting fixes ${{ steps.linting.outputs.url }}'
       - name: Cleanup files needed to create next steps issues
